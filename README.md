@@ -23,7 +23,7 @@ In order to successfully use this repository for learning core computer science 
 These books were required reading for McNeese's Advanced Data Structures ("Data structures..."), Software Engineering I and II ("Software Engineering"), and Numerical Methods I and II ("Numerical Analysis"). If you are one of the students, I recommend reading the assigned text alongside any online documentation. Your professors will be able to tell the difference.
 
 #Table of Contents
--Algorithms and Data Structures
+Algorithms and Data Structures
     -Data Structures
 		-Linear Data Structures
 			-Array List and Iterators
@@ -74,56 +74,55 @@ These books were required reading for McNeese's Advanced Data Structures ("Data 
 				-Newton's Method
 	-EulerTours
 	
--Code
+Code
     -Java
-		-ArrayList_Iterator
-			-DNode
-			-ElementIterator
-			-NodePositionList
-			-Position
-			-PositionList
+	-ArrayList_Iterator
+		-DNode
+		-ElementIterator
+		-NodePositionList
+		-Position
+		-PositionList
+	-BinaryTree
+		-ArrayListCompleteBinaryTree
 		-BinaryTree
-			-ArrayListCompleteBinaryTree
-			-BinaryTree
-			-BTNode
-			-BTPosition
-			-CompleteBinaryTree
-			-LinkedBinaryTree
-			-Tree
-		-Exceptions
-			-BounadryViolationException
-			-EmptyListException
-			-EmptyPriorityQueueException
-			-EmptyTreeException
-			-FullStackException
-			-InvalidEntryException
-			-InvalidKeyException
-			-InvalidPositionException
-			-NonEmptyTreeException
-			-NoSuchElementException
-		-Maps
-			-Entry
-			-HashTableMap
-			-Map
+		-BTNode
+		-BTPosition
+		-CompleteBinaryTree
+		-LinkedBinaryTree
+		-Tree
+	-Exceptions
+		-BounadryViolationException
+		-EmptyListException
+		-EmptyPriorityQueueException
+		-EmptyTreeException
+		-FullStackException
+		-InvalidEntryException
+		-InvalidKeyException
+		-InvalidPositionException
+		-NonEmptyTreeException
+		-NoSuchElementException
+	-Maps
+		-Entry
+		-HashTableMap
+		-Map
+	-PriorityQueue
+		-HeapPriorityQueue
 		-PriorityQueue
-			-HeapPriorityQueue
-			-PriorityQueue
-			-PriorityQueueAdaptable
-			-PriorityQueueComparator
-			-PriorityQueueEntry
-			-PriorityQueueSortedList
-			-PriorityQueueSortedListAdaptable
-		-Queue_Stack
-			-Node
-			-Queue
-			-QueueUsingStack
-			-QueueUsingList
-			-Stack
-			-StackUsingList
-		-Sorting
-			-SortingAlgorithmsMain
-			-Sorter (very primitive bubble, selection, and insertion sorting, prints comparisions of operations required)
-	
+		-PriorityQueueAdaptable
+		-PriorityQueueComparator
+		-PriorityQueueEntry
+		-PriorityQueueSortedList
+		-PriorityQueueSortedListAdaptable
+	-Queue_Stack
+		-Node
+		-Queue
+		-QueueUsingStack
+		-QueueUsingList
+		-Stack
+		-StackUsingList
+	-Sorting
+		-SortingAlgorithmsMain
+		-Sorter (very primitive bubble, selection, and insertion sorting, prints comparisions of operations required)
 	-C#
 		-Plant Controller
 			-PlantController
@@ -145,10 +144,8 @@ These books were required reading for McNeese's Advanced Data Structures ("Data 
 			-AutoIntensity
 			-MeterologicalController
 			-Weather
-	
 	-C
 		-RoundRobinScheduling
-	
 	-Mathematica
 		-Solutions of Equations in one variable
 			-OneVar_BisectionMethod
@@ -174,7 +171,7 @@ These books were required reading for McNeese's Advanced Data Structures ("Data 
 		-Numerical Solutions to nonlinear Systems of Equations
 			-NonLinearSys_NewtonsMethod
 
--Software Engineering
+Software Engineering
 	-The Software Development Life Cycle
 	-Core Software Development Activities
 	-Agile Methods
