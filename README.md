@@ -23,20 +23,20 @@ In order to successfully use this repository for learning core computer science 
 These books were required reading for McNeese's Advanced Data Structures ("Data structures..."), Software Engineering I and II ("Software Engineering"), and Numerical Methods I and II ("Numerical Analysis"). If you are one of the students, I recommend reading the assigned text alongside any online documentation. Your professors will be able to tell the difference.
 
 ## Table of Contents
-- Algorithms and Data Structures
+
+Algorithms and Data Structures
 	- Data Structures
 		- Linear Data Structures
 			- Array List and Iterators
 			- Queues
 			- Stacks
 		- Nonlinear Data Structures
-			- Graphs
+			+ Graphs
 				- Taxonomy of Graphs
 				- Trees
-					- Binary Trees
 		- Maps
-			- Maps
-			- Hash Table Maps
+			+ Maps
+			+ Hash Table Maps
 		- Priority Queue
 			- Priority Queues
 			- Heaps
@@ -73,55 +73,57 @@ These books were required reading for McNeese's Advanced Data Structures ("Data 
 			- Numerical Solutions
 				- Newton's Method
 	- EulerTours
-- Code
+	
+  
+Code
 	- Java
-	- ArrayList_Iterator
-		- DNode
-		- ElementIterator
-		- NodePositionList
-		- Position
-		- PositionList
-	- BinaryTree
-		- ArrayListCompleteBinaryTree
+		- ArrayList_Iterator
+			- DNode
+			- ElementIterator
+			- NodePositionList
+			- Position
+			- PositionList
 		- BinaryTree
-		- BTNode
-		- BTPosition
-		- CompleteBinaryTree
-		- LinkedBinaryTree
-		- Tree
-	- Exceptions
-		- BounadryViolationException
-		- EmptyListException
-		- EmptyPriorityQueueException
-		- EmptyTreeException
-		- FullStackException
-		- InvalidEntryException
-		- InvalidKeyException
-		- InvalidPositionException
-		- NonEmptyTreeException
-		- NoSuchElementException
-	- Maps
-		- Entry
-		- HashTableMap
-		- Map
-	- PriorityQueue
-		- HeapPriorityQueue
+			- ArrayListCompleteBinaryTree
+			- BinaryTree
+			- BTNode
+			- BTPosition
+			- CompleteBinaryTree
+			- LinkedBinaryTree
+			- Tree
+		- Exceptions
+			- BounadryViolationException
+			- EmptyListException
+			- EmptyPriorityQueueException
+			- EmptyTreeException
+			- FullStackException
+			- InvalidEntryException
+			- InvalidKeyException
+			- InvalidPositionException
+			- NonEmptyTreeException
+			- NoSuchElementException
+		- Maps
+			- Entry
+			- HashTableMap
+			- Map
 		- PriorityQueue
-		- PriorityQueueAdaptable
-		- PriorityQueueComparator
-		- PriorityQueueEntry
-		- PriorityQueueSortedList
-		- PriorityQueueSortedListAdaptable
-	- Queue_Stack
-		- Node
-		- Queue
-		- QueueUsingStack
-		- QueueUsingList
-		- Stack
-		- StackUsingList
-	- Sorting
-		- SortingAlgorithmsMain
-		- Sorter
+			- HeapPriorityQueue
+			- PriorityQueue
+			- PriorityQueueAdaptable
+			- PriorityQueueComparator
+			- PriorityQueueEntry
+			- PriorityQueueSortedList
+			- PriorityQueueSortedListAdaptable
+		- Queue_Stack
+			- Node
+			- Queue
+			- QueueUsingStack
+			- QueueUsingList
+			- Stack
+			- StackUsingList
+		- Sorting
+			- SortingAlgorithmsMain
+			- Sorter
 	- C#
 		- Plant Controller
 			- PlantController
@@ -169,7 +171,9 @@ These books were required reading for McNeese's Advanced Data Structures ("Data 
 			- EigenApprox_QRMETHOD
 		- Numerical Solutions to nonlinear Systems of Equations
 			- NonLinearSys_NewtonsMethod
-- Software Engineering
+
+
+Software Engineering
 	- The Software Development Life Cycle
 	- Core Software Development Activities
 	- Agile Methods
