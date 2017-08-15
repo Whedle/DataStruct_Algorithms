@@ -1,4 +1,4 @@
-# DataStruct_Algorithms
+# H1 DataStruct_Algorithms
 Code, data, or information that students frequently ask about, or that I would like to be able to reference at a later date.
 
 Note:
@@ -9,7 +9,7 @@ learning, and neural network programs). If you do not agree to accept all liabil
 in the repository are shared for STRICTLY EDUCATIONAL PURPOSES ONLY. Students should feel free to learn from the data structure and algorithm examples and documentation, but also recognize that failing to cite or reference 
 the code will probably constitute an act of plagerism (depending upon your academic integrity policies).
 
-#Getting Started
+## Getting Started
 This repository can be separated into three major parts. Part I (Algorithms and Data Structures) includes explanations of computer science concepts, data structures, and algorithms, as well as associated pseudocode.
 Part II (Code) includes actual code implemented in various languages. While all of the code currently listed in the table of contents has already been implemented, I am currently reformatting it and so either some
 or much of the code may be unavailable for a short period of time. Nearly all of the code will be available, hopefully by 9/01/2017. Part III covers software engineering best practices and terminology. This should give
@@ -22,9 +22,9 @@ In order to successfully use this repository for learning core computer science 
 	and then using this repository as a reference.
 These books were required reading for McNeese's Advanced Data Structures ("Data structures..."), Software Engineering I and II ("Software Engineering"), and Numerical Methods I and II ("Numerical Analysis"). If you are one of the students, I recommend reading the assigned text alongside any online documentation. Your professors will be able to tell the difference.
 
-#Table of Contents
-Algorithms and Data Structures
-    -Data Structures
+## Table of Contents
+-Algorithms and Data Structures
+	-Data Structures
 		-Linear Data Structures
 			-Array List and Iterators
 			-Queues
@@ -73,9 +73,8 @@ Algorithms and Data Structures
 			-Numerical Solutions
 				-Newton's Method
 	-EulerTours
-	
-Code
-    -Java
+-Code
+	-Java
 	-ArrayList_Iterator
 		-DNode
 		-ElementIterator
@@ -170,8 +169,7 @@ Code
 			-EigenApprox_QRMETHOD
 		-Numerical Solutions to nonlinear Systems of Equations
 			-NonLinearSys_NewtonsMethod
-
-Software Engineering
+-Software Engineering
 	-The Software Development Life Cycle
 	-Core Software Development Activities
 	-Agile Methods
