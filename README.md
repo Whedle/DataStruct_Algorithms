@@ -31,12 +31,12 @@ Algorithms and Data Structures
 			- Queues
 			- Stacks
 		- Nonlinear Data Structures
-			+ Graphs
+			- Graphs
 				- Taxonomy of Graphs
 				- Trees
 		- Maps
-			+ Maps
-			+ Hash Table Maps
+			- Maps
+			- Hash Table Maps
 		- Priority Queue
 			- Priority Queues
 			- Heaps
@@ -74,7 +74,6 @@ Algorithms and Data Structures
 				- Newton's Method
 	- EulerTours
 	
-  
 Code
 	- Java
 		- ArrayList_Iterator
