@@ -32,8 +32,8 @@ These books were required reading for McNeese's Advanced Data Structures ("Data 
 			- Stacks
 		- Nonlinear Data Structures
 			- Graphs
-				..- Taxonomy of Graphs
-				..- Trees
+				- Taxonomy of Graphs
+				- Trees
 		- Maps
 			- Maps
 			- Hash Table Maps
@@ -73,7 +73,9 @@ These books were required reading for McNeese's Advanced Data Structures ("Data 
 			- Numerical Solutions
 				- Newton's Method
 	- EulerTours
+	
 2. Code
+
 	- Java
 		- ArrayList_Iterator
 			- DNode
@@ -122,6 +124,7 @@ These books were required reading for McNeese's Advanced Data Structures ("Data 
 		- Sorting
 			- SortingAlgorithmsMain
 			- Sorter
+			
 	- C#
 		- Plant Controller
 			- PlantController
@@ -143,8 +146,10 @@ These books were required reading for McNeese's Advanced Data Structures ("Data 
 			- AutoIntensity
 			- MeterologicalController
 			- Weather
+			
 	- C
 		- RoundRobinScheduling
+		
 	- Mathematica
 		- Solutions of Equations in one variable
 			- OneVar_BisectionMethod
@@ -169,6 +174,7 @@ These books were required reading for McNeese's Advanced Data Structures ("Data 
 			- EigenApprox_QRMETHOD
 		- Numerical Solutions to nonlinear Systems of Equations
 			- NonLinearSys_NewtonsMethod
+			
 3. Software Engineering
 	- The Software Development Life Cycle
 	- Core Software Development Activities
