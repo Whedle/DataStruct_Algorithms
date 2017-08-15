@@ -1,4 +1,4 @@
-# H1 DataStruct_Algorithms
+# DataStruct_Algorithms
 Code, data, or information that students frequently ask about, or that I would like to be able to reference at a later date.
 
 Note:
@@ -23,170 +23,170 @@ In order to successfully use this repository for learning core computer science 
 These books were required reading for McNeese's Advanced Data Structures ("Data structures..."), Software Engineering I and II ("Software Engineering"), and Numerical Methods I and II ("Numerical Analysis"). If you are one of the students, I recommend reading the assigned text alongside any online documentation. Your professors will be able to tell the difference.
 
 ## Table of Contents
--Algorithms and Data Structures
-	-Data Structures
-		-Linear Data Structures
-			-Array List and Iterators
-			-Queues
-			-Stacks
-		-Nonlinear Data Structures
-			-Graphs
-				-Taxonomy of Graphs
-				-Trees
-					-Binary Trees
-		-Maps
-			-Maps
-			-Hash Table Maps
-		-Priority Queue
-			-Priority Queues
-			-Heaps
-	-Numerical Methods and Analysis Algorithms
-		-Solutions of Equations in one variable
-			-Bisection Method
-			-Fixed-Point Iteration
-			-Newton's Method
-		-Approximation
-			-Interpolation and Polynomial Approximation
-				-Neville's Method
-				-Divided Differences
-				-Cubic Spline Interpolation
-				-Parametric Curves
-			-Approximating Theory
-				-Fast Fourier Transforms
-			-Approximating Eigenvalues
-				-Power Method
-				-QR Algorithms
-		-Differential Equations
-			-Initial Value Problems for ODEs
-				-Gaussian Quadrature
-				-Euler's Method
-				-Higher-Order Taylor Methods
-				-Runge-Kutta Methods
-			-Multistep Methods for Initial Value Problems for ODEs
-				-Adams-Bashforth and Adams-Moulten
-		-Matrix Algebra
-			-Iterative Techniques
-				-Jacobi Techniques
-				-Gauss-Siedel Iterative Technique
-				-Successive Over-Relaxation Method (SOR)
-		-Nonlinear Systems of Equations
-			-Numerical Solutions
-				-Newton's Method
-	-EulerTours
--Code
-	-Java
-	-ArrayList_Iterator
-		-DNode
-		-ElementIterator
-		-NodePositionList
-		-Position
-		-PositionList
-	-BinaryTree
-		-ArrayListCompleteBinaryTree
-		-BinaryTree
-		-BTNode
-		-BTPosition
-		-CompleteBinaryTree
-		-LinkedBinaryTree
-		-Tree
-	-Exceptions
-		-BounadryViolationException
-		-EmptyListException
-		-EmptyPriorityQueueException
-		-EmptyTreeException
-		-FullStackException
-		-InvalidEntryException
-		-InvalidKeyException
-		-InvalidPositionException
-		-NonEmptyTreeException
-		-NoSuchElementException
-	-Maps
-		-Entry
-		-HashTableMap
-		-Map
-	-PriorityQueue
-		-HeapPriorityQueue
-		-PriorityQueue
-		-PriorityQueueAdaptable
-		-PriorityQueueComparator
-		-PriorityQueueEntry
-		-PriorityQueueSortedList
-		-PriorityQueueSortedListAdaptable
-	-Queue_Stack
-		-Node
-		-Queue
-		-QueueUsingStack
-		-QueueUsingList
-		-Stack
-		-StackUsingList
-	-Sorting
-		-SortingAlgorithmsMain
-		-Sorter (very primitive bubble, selection, and insertion sorting, prints comparisions of operations required)
-	-C#
-		-Plant Controller
-			-PlantController
-			-SpeciesController
-		-StateMachineHarvest
-			-Bias
-			-ClusterBias
-			-HarvestState
-			-IdleState
-			-InteractState
-			-Inventroy
-			-NeuralNet
-			-ObjectiveControl
-			-ReturnState
-			-SearchState
-			-StateControllerHarvest
-			-UserIState
-		-WeatherControl
-			-AutoIntensity
-			-MeterologicalController
-			-Weather
-	-C
-		-RoundRobinScheduling
-	-Mathematica
-		-Solutions of Equations in one variable
-			-OneVar_BisectionMethod
-			-OneVar_FixedPointIteration
-			-OneVar_NewtonsMethod
-		-Approximation using Interpolation and Polynomials
-			-InterPolyApprox_NevillesMethod
-			-InterPolyApprox_DividedDifferences
-			-InterPolyApprox_CubicSpline
-		-Initial Value Problems for Ordinary Differential Equations
-			-IVPODE_GaussianQuadrature
-			-IVPODE_EulersMethod
-			-IVPODE_HigherORderTaylorMethod
-			-IVPODE_RungeKuttaMethod
-			-IVPODE_AdamsBash2andMoulten3
-		-Matrix Algebra Iterative Techniques
-			-MatAlg_JacobiMethod
-			-MatAlg_GaussSiedelIterative
-			-MatAlg_SOR
-		-Approximation of Eigenvalues
-			-EigApprox_PowerMethod
-			-EigenApprox_QRMETHOD
-		-Numerical Solutions to nonlinear Systems of Equations
-			-NonLinearSys_NewtonsMethod
--Software Engineering
-	-The Software Development Life Cycle
-	-Core Software Development Activities
-	-Agile Methods
-	-Requirements Engineering
-		-Function Requirements
-		-Nonfunctional Requirements
-	-Design
-	-Testing
-	-Dependable Systems
-		-Reliability
-		-Availability
-		-Safety
-		-Security
-		-Resilience
-	-Software Reuse
-	-Component-Based Software Engineering
-	-Distributed Software Engineering
-	-Service-Oriented Software Engineering
-	-Systems Engineering
-	-Project Management
+- Algorithms and Data Structures
+	- Data Structures
+		- Linear Data Structures
+			- Array List and Iterators
+			- Queues
+			- Stacks
+		- Nonlinear Data Structures
+			- Graphs
+				- Taxonomy of Graphs
+				- Trees
+					- Binary Trees
+		- Maps
+			- Maps
+			- Hash Table Maps
+		- Priority Queue
+			- Priority Queues
+			- Heaps
+	- Numerical Methods and Analysis Algorithms
+		- Solutions of Equations in one variable
+			- Bisection Method
+			- Fixed point Iteration
+			- Newton's Method
+		- Approximation
+			- Interpolation and Polynomial Approximation
+				- Neville's Method
+				- Divided Differences
+				- Cubic Spline Interpolation
+				- Parametric Curves
+			- Approximating Theory
+				- Fast Fourier Transforms
+			- Approximating Eigenvalues
+				- Power Method
+				- QR Algorithms
+		- Differential Equations
+			- Initial Value Problems for ODEs
+				- Gaussian Quadrature
+				- Euler's Method
+				- Higher Order Taylor Methods
+				- Runge Kutta Methods
+			- Multistep Methods for Initial Value Problems for ODEs
+				- Adams Bashforth and Adams Moulten
+		- Matrix Algebra
+			- Iterative Techniques
+				- Jacobi Techniques
+				- Gauss Siedel Iterative Technique
+				- Successive Over Relaxation Method (SOR)
+		- Nonlinear Systems of Equations
+			- Numerical Solutions
+				- Newton's Method
+	- EulerTours
+- Code
+	- Java
+	- ArrayList_Iterator
+		- DNode
+		- ElementIterator
+		- NodePositionList
+		- Position
+		- PositionList
+	- BinaryTree
+		- ArrayListCompleteBinaryTree
+		- BinaryTree
+		- BTNode
+		- BTPosition
+		- CompleteBinaryTree
+		- LinkedBinaryTree
+		- Tree
+	- Exceptions
+		- BounadryViolationException
+		- EmptyListException
+		- EmptyPriorityQueueException
+		- EmptyTreeException
+		- FullStackException
+		- InvalidEntryException
+		- InvalidKeyException
+		- InvalidPositionException
+		- NonEmptyTreeException
+		- NoSuchElementException
+	- Maps
+		- Entry
+		- HashTableMap
+		- Map
+	- PriorityQueue
+		- HeapPriorityQueue
+		- PriorityQueue
+		- PriorityQueueAdaptable
+		- PriorityQueueComparator
+		- PriorityQueueEntry
+		- PriorityQueueSortedList
+		- PriorityQueueSortedListAdaptable
+	- Queue_Stack
+		- Node
+		- Queue
+		- QueueUsingStack
+		- QueueUsingList
+		- Stack
+		- StackUsingList
+	- Sorting
+		- SortingAlgorithmsMain
+		- Sorter
+	- C#
+		- Plant Controller
+			- PlantController
+			- SpeciesController
+		- StateMachineHarvest
+			- Bias
+			- ClusterBias
+			- HarvestState
+			- IdleState
+			- InteractState
+			- Inventroy
+			- NeuralNet
+			- ObjectiveControl
+			- ReturnState
+			- SearchState
+			- StateControllerHarvest
+			- UserIState
+		- WeatherControl
+			- AutoIntensity
+			- MeterologicalController
+			- Weather
+	- C
+		- RoundRobinScheduling
+	- Mathematica
+		- Solutions of Equations in one variable
+			- OneVar_BisectionMethod
+			- OneVar_FixedPointIteration
+			- OneVar_NewtonsMethod
+		- Approximation using Interpolation and Polynomials
+			- InterPolyApprox_NevillesMethod
+			- InterPolyApprox_DividedDifferences
+			- InterPolyApprox_CubicSpline
+		- Initial Value Problems for Ordinary Differential Equations
+			- IVPODE_GaussianQuadrature
+			- IVPODE_EulersMethod
+			- IVPODE_HigherORderTaylorMethod
+			- IVPODE_RungeKuttaMethod
+			- IVPODE_AdamsBash2andMoulten3
+		- Matrix Algebra Iterative Techniques
+			- MatAlg_JacobiMethod
+			- MatAlg_GaussSiedelIterative
+			- MatAlg_SOR
+		- Approximation of Eigenvalues
+			- EigApprox_PowerMethod
+			- EigenApprox_QRMETHOD
+		- Numerical Solutions to nonlinear Systems of Equations
+			- NonLinearSys_NewtonsMethod
+- Software Engineering
+	- The Software Development Life Cycle
+	- Core Software Development Activities
+	- Agile Methods
+	- Requirements Engineering
+		- Function Requirements
+		- Nonfunctional Requirements
+	- Design
+	- Testing
+	- Dependable Systems
+		- Reliability
+		- Availability
+		- Safety
+		- Security
+		- Resilience
+	- Software Reuse
+	- Component Based Software Engineering
+	- Distributed Software Engineering
+	- Service Oriented Software Engineering
+	- Systems Engineering
+	- Project Management
