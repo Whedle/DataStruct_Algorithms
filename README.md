@@ -24,7 +24,7 @@ These books were required reading for McNeese's Advanced Data Structures ("Data 
 
 ## Table of Contents
 
-Algorithms and Data Structures
+1. Algorithms and Data Structures
 	- Data Structures
 		- Linear Data Structures
 			- Array List and Iterators
@@ -32,8 +32,8 @@ Algorithms and Data Structures
 			- Stacks
 		- Nonlinear Data Structures
 			- Graphs
-				- Taxonomy of Graphs
-				- Trees
+				..- Taxonomy of Graphs
+				..- Trees
 		- Maps
 			- Maps
 			- Hash Table Maps
@@ -73,8 +73,7 @@ Algorithms and Data Structures
 			- Numerical Solutions
 				- Newton's Method
 	- EulerTours
-	
-Code
+2. Code
 	- Java
 		- ArrayList_Iterator
 			- DNode
@@ -170,9 +169,7 @@ Code
 			- EigenApprox_QRMETHOD
 		- Numerical Solutions to nonlinear Systems of Equations
 			- NonLinearSys_NewtonsMethod
-
-
-Software Engineering
+3. Software Engineering
 	- The Software Development Life Cycle
 	- Core Software Development Activities
 	- Agile Methods
