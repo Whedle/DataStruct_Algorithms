@@ -10,16 +10,16 @@ in the repository are shared for STRICTLY EDUCATIONAL PURPOSES ONLY. Students sh
 the code will probably constitute an act of plagerism (depending upon your academic integrity policies).
 
 ## Getting Started
-This repository can be separated into three major parts. Part I (Algorithms and Data Structures) includes explanations of computer science concepts, data structures, and algorithms, as well as associated pseudocode.
-Part II (Code) includes actual code implemented in various languages. While all of the code currently listed in the table of contents has already been implemented, I am currently reformatting it and so either some
-or much of the code may be unavailable for a short period of time. Nearly all of the code will be available, hopefully by 9/01/2017. Part III covers software engineering best practices and terminology. This should give
-students (and professionals unfamiliar with the concepts) a good look into methods of efficient software engineering and design.
+This repository can be separated into three major parts. 
+1. Part I (Algorithms and Data Structures) includes explanations of computer science concepts, data structures, and algorithms, as well as associated pseudocode.
+2. Part II (Code) includes actual code implemented in various languages. While all of the code currently listed in the table of contents has already been implemented, I am currently reformatting it and so either some or much of the code may be unavailable for a short period of time. Nearly all of the code will be available, hopefully by 9/01/2017. 
+3. Part III covers software engineering best practices and terminology. This should give students (and professionals unfamiliar with the concepts) a good look into methods of efficient software engineering and design.
  
 In order to successfully use this repository for learning core computer science and software engineering concepts, I highly recommend first reading the textbooks
-	Ian Summerville. "Software Engineering". 10th ed. Read for an understanding of software engineering methods and taxonomy, including the Software Development Life Cycle.
-	Michael T. Goodrich, Roberto Tamassia. "Data Structures and Algorithms in Java". 5th ed (or later). This textbook covers a vast deal of data struct and algorithm theory and implementation methods. I highly recommend it for any computer science or software engineering student.
-	Richard L. Burden, Douglas J. Faires, Annette M. Burden. "Numerical Analysis". 10th. For students (or professionals) who wish to understand the core mathematical theory behind computer science and especially those who wish to use numerical methods and analysis, this textbook is really one of the best I have seen.
-	and then using this repository as a reference.
+1. Ian Summerville. "Software Engineering". 10th ed. Read for an understanding of software engineering methods and taxonomy, including the Software Development Life Cycle.
+2. Michael T. Goodrich, Roberto Tamassia. "Data Structures and Algorithms in Java". 5th ed (or later). This textbook covers a vast deal of data struct and algorithm theory and implementation methods. I highly recommend it for any computer science or software engineering student.
+3. Richard L. Burden, Douglas J. Faires, Annette M. Burden. "Numerical Analysis". 10th. For students (or professionals) who wish to understand the core mathematical theory behind computer science and especially those who wish to use numerical methods and analysis, this textbook is really one of the best I have seen.
+
 These books were required reading for McNeese's Advanced Data Structures ("Data structures..."), Software Engineering I and II ("Software Engineering"), and Numerical Methods I and II ("Numerical Analysis"). If you are one of the students, I recommend reading the assigned text alongside any online documentation. Your professors will be able to tell the difference.
 
 ## Table of Contents
