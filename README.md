@@ -12,7 +12,7 @@ the code will probably constitute an act of plagerism (depending upon your acade
 ## Getting Started
 This repository can be separated into three major parts. 
 1. Part I (Algorithms and Data Structures) includes explanations of computer science concepts, data structures, and algorithms, as well as associated pseudocode.
-2. Part II (Code) includes actual code implemented in various languages. While all of the code currently listed in the table of contents has already been implemented, I am currently reformatting it and so either some or much of the code may be unavailable for a short period of time. Nearly all of the code will be available, hopefully by 9/01/2017. 
+2. Part II (Code) includes actual code implemented in various languages. While all of the code currently listed in the table of contents has already been implemented, I am currently reformatting it and so either some or much of the code may be unavailable for a short period of time. Nearly all of the code will be available, hopefully by 9/21/2017. 
 3. Part III covers software engineering best practices and terminology. This should give students (and professionals unfamiliar with the concepts) a good look into methods of efficient software engineering and design.
  
 In order to successfully use this repository for learning core computer science and software engineering concepts, I highly recommend first reading the textbooks
