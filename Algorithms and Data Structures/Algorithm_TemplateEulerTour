@@ -1,0 +1,16 @@
+Algorithm TemplateEulerTour(T, v):
+	r <-- new object of type TourResult
+	visitLeft(T, v, r)
+	if T.hasLeft(v) then
+		r.left <-- templateEulerTour(T, T.left(v))
+	visitBelow(T, v, r)
+	if T.hasRight(v) then
+		r.right <-- templateEulerTour(T, T.right(v))
+	visitRight(T, v, r)
+	return r.out
+	
+	
+Object-oriented software design pattern "template method pattern"
+	The template method pattern describes a generic computation mechanism that can be specialized for a particular
+	application by redefining certain steps. Following the template method pattern, this is an algorithm that implements 
+	a generic EulerTour traversal of a binary tree.

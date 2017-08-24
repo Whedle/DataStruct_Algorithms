@@ -1,0 +1,8 @@
+Algorithm HashTable Put(k, v):
+	Output: If there is an existing entry in our map with key equal to k, then we return its value (replacing it with v);
+		otherwise we return null.
+		
+	t <-- A[h(k)].put(k, v)
+	if t = null then	{k is a new key}
+		n <-- n + 1
+	return t

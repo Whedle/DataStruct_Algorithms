@@ -1,0 +1,4 @@
+Algorithm HashTable Get(k):
+	Output:		The value associated with the key k in the map, or null if there is no entry with key equal to k in the map
+	
+		return A[h(k)].get(k)

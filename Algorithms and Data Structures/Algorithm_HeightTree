@@ -1,0 +1,16 @@
+Algorithm HeightTree(T, v):		// Computes the height of tree T using recursive definition of height (more efficient than iterative HeightTree algorithms)
+	if v is an external node in T then
+		return 0;
+	else
+		h <-- 0
+		for each child w of v in T do
+			h <-- max(h, HeightTree(T, w))
+		return 1 + h
+		
+example:	public static <E> int heightTree (Tree<E> T, Position<E> v) {
+				if(T.isExternal(v)) return 0;
+				int h = 0;
+				for (Position<E> w : T.children(v))
+					h = Math.max(h, heightTree(T, w));
+				return 1 + h;
+			}

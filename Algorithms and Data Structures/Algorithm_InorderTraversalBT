@@ -1,0 +1,6 @@
+Algorithm InorderTraversalBT(T, v):		// interchangeable in practice with "inorderTraversal"
+		if v has a left child u in T then
+			InorderTraversalBT(T, u)		// recursively traverse left subtree
+		perform the visit action for node v
+		if v has a right child w in T then
+			InorderTraversalBT(T, w)		// recursively traverse right subtree

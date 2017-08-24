@@ -1,0 +1,6 @@
+Algorithm PostorderTraversalBT(T,V): // In practice this is sometimes denoted PostorderTraversal or BinaryPostorder
+	if v has a left child u in T then
+		PostorderTraversalBT(T, u) // recursively traverse left subtree
+	if v has a right child w in T then
+		PostorderTraversalBT(T, w) // recursively traverse right subtree
+	perform the visit action for node v

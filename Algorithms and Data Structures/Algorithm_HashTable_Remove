@@ -1,0 +1,7 @@
+Algorithm HashTable Remove(k):
+	Output:		The removed value associated with ky k in the map or null if there is no entry with key equal to k in the map.
+	
+	t <-- A[h(k)].remove(k)
+	if t =/= null then	{k was found}
+		n <-- n-1
+	return t

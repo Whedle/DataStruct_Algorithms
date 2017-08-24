@@ -1,0 +1,36 @@
+Adaptable Priority Queues and Location-Aware Entries
+
+	The methods of the priority queue ADT given with PriorityQueue.java are sufficient for most basic applications of 
+	priority queues, such as sorting. There are, however situations where additional methods would be useful.
+	
+	1: If an entry other then the minimum must be removed from the list.
+	2: If the priority of an entry changes (which requires the key to be replaced).
+	3: If the value of an entry changes (which requires the value to be replaced).
+	
+	Including additional methods that allow for these situations to occur in a Priority Queue will make this priority queue 
+	"adaptable."
+	
+	The necessary methods are remove(entry), replaceKey(entry, key),  and replaceValue(entry, value).
+	
+	Problems with implementing these methods to make the priority queue adaptable include the fact that all three of these
+		methods tend to run O(n) time, unless a mechanism for finding the position of an entry P is efficiently implemented
+		inside of the data structure. Namely, given the entry e of P passed as an argument to one of the above methods, we
+		need to find the position storing e in the data structure implementing P. This position is called the location of 
+		the entry. Instead of searching for the location of a given entry e, we augment the entry object with an instance
+		variable of type Position storing the location. This implementation of an entry that keeps track of its position
+		is called a location-aware entry.
+		
+	Sorted List implementation: In this implementation, after an entry is inserted, we set the location of the entry to 
+	refer to the position of the list containing the entry. Also, we update the location of the entry whenever it changes 
+	position in the list. Operations remove() and replaceValue(e,x) take O(1) time, since we can obtain the position p of 
+	entry e in O(1) time following the location reference stored with the entry. Instead , operation replaceKey(e, k) runs in
+	O(n) time, because the modification of the key of entry e may require moving the entry to a different position in the 
+	list to preserve the ordering of the standard priority queue operations by a constant factor.
+	
+	Heap implementation: In this implementation, after an entry is inserted, we set the location of the entry to refer to 
+	the node of the heap containing the entry. Also, we update the location of the entry whenever it changes node in the heap.
+	Operation replaceValue(e, x) takes O(1) time since we can obtain the position p of entry e in O(1) time following the
+	location reference stored with the entry. Operations remove(e) and replaceKey(e, k) run instead in O(log n). The use of
+	location-aware entries increases the running time of operations insert and removeMin by a constant factor overhead.
+	
+	Please refer to the textbook for more information.

@@ -1,0 +1,12 @@
+Algorithm Map Put(k, v):
+	Input:		A key-value pair (k, v)
+	Output:		The old value associated with key k in M, or null if k is new.
+	
+		for each position p in S.positions() do
+			if p.element().getKey() = k then
+				t <-- p.element().getValue()
+				B.set(p, (k, v))
+				return t
+			S.addLast((k, v))
+			n <-- n+1
+			return null

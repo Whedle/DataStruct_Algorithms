@@ -1,0 +1,15 @@
+Algorithm BottomUpHeap(S):
+	Input: 		A list L storing n = 2^(h+1) - 1 entries
+	Output: 	A heap T storing the entries in L.
+	
+	if S.isEmpty() then
+		return an empty heap
+	e <-- L.remove(L.first())
+	Split L into two lists, L_1 and L_2, each of size (n-1)/2
+	T_1 <-- BottomUpHeap(L1)
+	T_2 <-- BottomUpHeap(L2)
+	Create binary tree T with root r storing e, left subtree T_1, and right subtree T_2
+	Perform a down-heap bubbling from the root r of T, if necessary
+	return T
+	
+Bottom-up construction of a heap with n entries takes O(n) time, assuming two keys can be compared in O(1) time.

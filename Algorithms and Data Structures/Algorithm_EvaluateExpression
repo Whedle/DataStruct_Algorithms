@@ -1,0 +1,7 @@
+Algorithm EvaluateExpression(T, v):
+	if v is an internal node in T then
+		let o be the operator stored at v
+		x <-- EvaluateExpression(T, T.left(v))
+		y <-- EvaluateExpression(T, T.right(v))
+	else
+		return the value stored at v

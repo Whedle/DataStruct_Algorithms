@@ -1,0 +1,26 @@
+Java Implementation of the Linked Binary Tree Structure
+
+	Class LinkedBinaryTree implements the BinaryTree interface using a linked data structure. This class stores the 
+	size of the tree and a reference to the BTNode object associated with the root of the tree in internal variables.
+	In addition to the BinaryTree interface methods, LinkedBinaryTree has various other methods such as accessor
+	methods for siblings and mutator (update) methods addRoot(e), insertLeft(v,e), insertRight(v, e), remove(v), and attach(v, T_1, T_2)
+	
+Performance of the LinkedBinaryTree Implementation
+
+Temporal Complexity Analysis:
+	Methods size() and isEmpty() use an instance variable storing number of nodes and each take O(1) time.
+	Accessor methods root, left, right, sibling, and parent take O(1) time.
+	Method replace(v,e) takes O(1) time.
+	Methods iterator and positions are implemented by performing a preorder traversal of the tree (using the auxiliary method preorderPositions).
+		The nodes visited by the traversal are stored in a position list implemented by class NodePositionList and the output iterator is generated
+		with method iterator() of class NodePosition List (which is found in the arraylist_iterator_example package).
+		Methods iterator() and positions() take O(n) time and methods has Next() and next() of the returned iterators take O(1) time.
+	Method children uses a similar approach to construct the returned iterable collection, but it runs in O(1) time, since there are at most two 
+		children for any node in a binary tree.
+	The update methods insertLeft, insertRight, attach, and remove all run in O(1) time, as they involve constant-time manipulation of a 
+		constant number of nodes.
+	
+Spatial Complexity Analysis
+	The spatial complexity of this data structure is interesting to analysis because it is easy to compare the number of nodes (which is n)
+		to the spatial usage of the binary tree structure. There is a BTNode object for every node of tree T. thus overal spatial complexity
+		is simply O(n).

@@ -1,0 +1,12 @@
+Algorithm DepthTree(T, v):		// for finding the depth of a specific node or element in a general tree.
+	if v is the root of T then
+		return 0
+	else
+	return 1 + depth(T, w), where w is the parent of v in T // iterates one level up the tree for each recursion of depth.
+
+example: public static <E> int depth(Tree<E> T Position<E> v) {
+		if(T.isRoot(v))
+			return 0;
+		else
+			return 1 + depth(T, T.parent(v));
+	}

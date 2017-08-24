@@ -1,0 +1,11 @@
+Algorithm Map Remove(k):
+	Input: A key k
+	Output: The removed value for key k in M, or null if k is not in M
+	
+		for each position p in S.positions() do
+			if p.element()).getKey() = k then
+				t <-- p.element().getValue()
+				S.remove(p)
+				n <-- n-1
+				return t {the removed value}
+			return null {no entry with key k}

@@ -1,0 +1,12 @@
+Algorithm PriorityQueueSort(S,P):
+	Input: 		A sequence S storing n elements, on which a total order relation is defined, and a priority queue, P, that compares keys
+				using the same total order relation.
+	Output:		The sequence S sorted by the total order relation
+	
+	while !S.isEmpty() do
+		e <-- S.removeFirst()
+		P.insert(e, null)
+	while !P.isEmpty() do
+		e <-- P.removeMin()
+		S.addLast(e)
+	return S (if necessary)

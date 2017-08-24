@@ -1,0 +1,9 @@
+Algorithm EulerTour(T, v):
+	perform the action for visiting node v on the left
+	if v has a left child u in T then
+		eulerTour(T, u)
+	perform the action for visiting node v from below
+	if v has a right child w in T then
+		eulerTour(T, w)
+	perform the action for visiting node v on the right
+						

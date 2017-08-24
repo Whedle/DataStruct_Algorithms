@@ -1,0 +1,8 @@
+Algorithm Map Get(k):
+	Input: A key k
+	Output: The value for key k in M, or null if there is no key k in M
+	
+		for each position p in S.positions() do
+			if p.element().getKey() = k then
+				return p.element().getValue()
+			return null {there is no entry with key equal to k}

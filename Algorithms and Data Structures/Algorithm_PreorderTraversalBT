@@ -1,0 +1,6 @@
+Algorithm PreorderTraversalBT(T, v): // In practice this is sometimes denoted preorderTraversal or BinaryPreorder
+	perform the visit action for node v
+	if v has a left child u in T then
+		PreorderTraversalBT(T, u)
+	if v has a right child w in T then
+		PreorderTraversalBT(T, w)

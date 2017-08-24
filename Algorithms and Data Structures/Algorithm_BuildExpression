@@ -1,0 +1,20 @@
+Algorithm BuildExpression(E):
+	Input: 		A fully-parenthesized arithmetic expression E = e_0, e_1, ... e_(n-1), with each e_i being a variable, operator, or parenthetic symbol
+	Output:		A binary tree T representing arithmetic expression E
+	
+	S <-- a new initially-empty stack
+	for i <-- 0 to n-1 do
+		if e_i is a variable or an operator then
+			T <-- a new empty binary tree
+			T.addRoot(e_i)
+			S.push(T)
+		else if e_i = '(' then
+			Continue looping
+		else // that is to say, if e_i = ')'
+			T_2 <-- S.pop()
+			T <-- S.pop()
+			T_1 <-- S.pop()
+			
+			T.attach(T.root(), T_1, T_2)
+			S.push(T)
+		return S.pop()
